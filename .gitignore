@@ -1,0 +1,19 @@
+# Secrets
+*.env
+.env
+secrets.cfg
+*password*
+*credentials*
+
+# Logs
+*.log
+logs/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Backups created by scripts
+/tmp/backups/
+*.tar.gz
+*.zip
