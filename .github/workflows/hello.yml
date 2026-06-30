@@ -1,0 +1,23 @@
+name: My First Workflow
+
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  say-hello:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Print a message
+        run: echo "Hello! The pipeline is running!"
+
+      - name: Show the date
+        run: date
+
+      - name: Show system info
+        run: uname -a
+
+      - name: List files
+        run: ls -la
